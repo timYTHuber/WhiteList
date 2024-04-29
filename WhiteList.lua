@@ -1,4 +1,4 @@
-local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/timYTHuber/WhiteList/main/DataBase", true))()
+local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/timYTHuber/WhiteList/main/DataBase.lua"))()
 
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
   https://raw.githubusercontent.com/timYTHuber/AllInOne/main/Hub.lua -- Ваш скрипт
